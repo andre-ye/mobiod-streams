@@ -1,10 +1,10 @@
 body {
   font-family: monospace;
   font-weight: 10;
-  font-size:60px;
+  font-size:20px;
   padding:20px;
   background:#000000;
-  color:#000000
+  color:#FFFFFF
 }
 
 #rssBlock{
