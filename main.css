@@ -34,6 +34,37 @@ a {
   color: rgba(255, 255, 255, 0.95);
 }
 
+
+.marqueeStyle_0 {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left1 5s linear infinite;
+  animation: scrolling-left1 5s linear infinite;
+}
+
+.marqueeStyle0 {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left2 5s linear infinite;
+  animation: scrolling-left2 5s linear infinite;
+  animation-delay: 2.5s;
+}
+
+.marqueeStyle_1 {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left1 10s linear infinite;
+  animation: scrolling-left1 10s linear infinite;
+}
+
+.marqueeStyle1 {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left2 10s linear infinite;
+  animation: scrolling-left2 10s linear infinite;
+  animation-delay: 5s;
+}
+
 .marqueeStyle_2 {
   display:inline-block;
   /* Apply animation to this element */
@@ -107,22 +138,6 @@ a {
   -webkit-animation: scrolling-left2 80s linear infinite;
   animation: scrolling-left2 80s linear infinite;
   animation-delay: 40s;
-}
-
-
-.marqueeStyle_1 {
-  display:inline-block;
-  /* Apply animation to this element */
-  -webkit-animation: scrolling-left1 10s linear infinite;
-  animation: scrolling-left1 10s linear infinite;
-}
-
-.marqueeStyle1 {
-  display:inline-block;
-  /* Apply animation to this element */
-  -webkit-animation: scrolling-left2 10s linear infinite;
-  animation: scrolling-left2 10s linear infinite;
-  animation-delay: 5s;
 }
 
 /* scrolling-left is continuous/repeatly text */
